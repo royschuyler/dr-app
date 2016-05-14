@@ -1,0 +1,23 @@
+{
+  "name": "dr-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royschuyler/dr-app.git"
+  },
+  "author": "royschuyler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/royschuyler/dr-app/issues"
+  },
+  "homepage": "https://github.com/royschuyler/dr-app#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mysql": "^2.10.2"
+  }
+}

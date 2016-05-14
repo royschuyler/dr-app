@@ -1,4 +1,5 @@
 var btn = $('.submitBtn');
+var clearBtn = $('.clearBtn');
 
 btn.on('click', function() {
 
@@ -13,8 +14,6 @@ btn.on('click', function() {
   var zip = $('.zip').val();
   var email = $('.email').val();
   var company = $('.company').val();
-
-
   var obj = {
               fName: fName,
               mName: mName,
@@ -28,10 +27,11 @@ btn.on('click', function() {
               email: email,
               company: company
             };
-
-
   console.log(obj);
-
 });
+
+clearBtn.on('click', function() {
+
+})
 
 
